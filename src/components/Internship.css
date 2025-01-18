@@ -1,0 +1,52 @@
+.internship {
+    background-color: #1c1c28; /* Dark background */
+    color: #ffffff; /* White text for readability */
+    text-align: center; /* Center-align text */
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  .internship h2 {
+    font-size: 2rem; /* Larger font size for heading */
+    color: #ff6f61; /* Highlight color for heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .intern {
+    background-color: #f9f9fa; /* Slightly lighter background for cards */
+    color: #050505; /* White text inside cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    padding: 20px; /* Inner padding for content */
+    margin: 20px auto; /* Space between cards */
+    width: 90%; /* Responsive width */
+    max-width: 800px; /* Maximum width for larger screens */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .intern h3 {
+    font-size: 1.5rem; /* Title font size */
+    color: #ff6f61; /* Highlight color for titles */
+    text-align: center; /* Center-align project titles */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .intern p {
+    font-size: 1rem; /* Paragraph font size */
+    text-align: center; /* Center-align project descriptions */
+    margin-bottom: 15px; /* Space below the description */
+  }
+  
+  .intern a {
+    display: inline-block; /* Make link appear as a button */
+    background-color: #ff6f61; /* Button background color */
+    color: #ffffff; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1rem; /* Button font size */
+    transition: background-color 0.3s ease; /* Add hover effect */
+  }
+  
+  .intern a:hover {
+    background-color: #e5554d; /* Slightly darker button color on hover */
+  }

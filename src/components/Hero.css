@@ -1,0 +1,103 @@
+.hero {
+  display: flex; /* Enable Flexbox */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #1e1e2f, #3a3a59);
+  color: #fff;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  max-width: 600px; /* Limit the width of the content */
+  align-items: center; /* Center content */
+}
+
+.profile-pic {
+  width: 200px; /* Adjust size of the profile picture */
+  height: 200px;
+  border-radius: 50%; /* Make it circular */
+  margin-bottom: 20px; /* Add space between the image and the text */
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin: 20px 0 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 15px;
+  justify-content: center; /* Center align the buttons horizontally */
+  margin-top: 20px; /* Add spacing from the text above */
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #ff6b6b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: inline-block; /* Ensure the buttons respect the parent container's width */
+}
+
+.btn.secondary {
+  background: #3a3a59;
+  border: 1px solid #ff6b6b;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Responsive Design: For smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column; /* Stack image and text vertically */
+    padding: 30px 10px;
+  }
+
+  .hero-content {
+    text-align: center; /* Center align content */
+    max-width: 100%; /* Use full width */
+  }
+
+  .profile-pic {
+    width: 150px; /* Reduce size of the profile picture */
+    height: 150px;
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+  }
+
+  .hero-content h1 {
+    font-size: 2rem; /* Reduce font size for smaller screens */
+  }
+
+  .hero-content p {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+  }
+
+  .hero-buttons {
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%; /* Make buttons take full width */
+    text-align: center;
+  }
+}
+
+
+
+
+  
