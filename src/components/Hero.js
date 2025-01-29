@@ -14,10 +14,10 @@ const Hero = () => {
           I'm <span className="highlight">V S Ravi Teja Akella</span>, a passionate
           developer.
         </h1>
-        <p>Specializing in creating modern, responsive web applications.</p>
+        <p>Specializing in full-stack application development.</p>
         <div className="hero-buttons">
           <a href="#projects" className="btn">View Projects</a>
-          <a href="/A Ravi Teja Resume.pdf" download className="btn secondary">
+          <a href="/A V S Ravi Teja Resume.pdf" download className="btn secondary">
             Download Resume
           </a>
         </div>
