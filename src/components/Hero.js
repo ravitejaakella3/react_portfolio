@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Hero.css";
 
 const Hero = () => {
+  const[count, setCount]=useState(0);
+
+  const btnClicked=()=>{
+    setCount(count=>count+1)
+  }
+
   return (
     <section className="hero">
       <img
@@ -17,9 +23,10 @@ const Hero = () => {
         <p>Specializing in full-stack application development.</p>
         <div className="hero-buttons">
           <a href="#projects" className="btn">View Projects</a>
-          <a href="/A V S Ravi Teja Resume.pdf" download className="btn secondary">
+          <a href="/A V S Ravi Teja Resume.pdf" download className="btn secondary" onClick={btnClicked} >
             Download Resume
           </a>
+          <p>Resume Download Count:{count}</p>
         </div>
       </div>
     </section>
