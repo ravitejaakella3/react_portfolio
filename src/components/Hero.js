@@ -12,7 +12,7 @@ const Hero = () => {
     <section className="hero">
       <img
         src="/assets/Ravi.jpg"
-        alt="Profile Picture"
+        alt="Ravi Teja Akella"
         className="profile-pic"
       />
       <div className="hero-content">
@@ -23,7 +23,7 @@ const Hero = () => {
         <p>Specializing in full-stack application development.</p>
         <div className="hero-buttons">
           <a href="#projects" className="btn">View Projects</a>
-          <a href="/A V S Ravi Teja Resume.pdf" download className="btn secondary" onClick={btnClicked} >
+          <a href="/V S Ravi Resume.pdf" download className="btn secondary" onClick={btnClicked} >
             Download Resume
           </a>
           <p>Resume Download Count:{count}</p>
