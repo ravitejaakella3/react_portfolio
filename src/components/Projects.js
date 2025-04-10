@@ -24,6 +24,19 @@ const Projects = () => {
         and API performance.</p>
         <a href="https://github.com/Daily-Utils/schedular" target="_blank" rel="noopener noreferrer">View on GitHub</a>
       </div>
+      <div className="project-card">
+        <h3>Project 3: Job Portal</h3>
+        <p><strong>Technologies Used:</strong> NodeJs, Express.js, React.Js, MongoDB, Local Storage </p>
+        <p><strong>Frontend:</strong>Developed using React.js with job listings, search filters, and job application management.</p>
+        <p><strong>Backend:</strong> Implemented using Node.js and Express.js to manage user authentication, job postings, and
+        application tracking</p>
+        <strong>Roles based access:</strong><p><strong>1.Job Seeker</strong> Can view all jobs, apply for jobs, and track application status (Accepted, Rejected,
+          Pending).</p><p><strong>2.Recruiter</strong> Can post jobs, view applications, accept/reject applicants, and manage posted jobs.</p>
+        <p><strong>Database:</strong> Used MongoDB for storing job listings, user roles, and applications</p>
+        <p><strong>Data Persistence:</strong> Implemented Local Storage on the frontend for temporary data storage and session
+        management.</p>
+        <a href="https://github.com/ravitejaakella3/job-portol-frontend" target="_blank" rel="noopener noreferrer">View on GitHub</a> &nbsp; <a href="https://job-portol-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+      </div>
     </section>
   );
 };
