@@ -33,7 +33,8 @@
   .intern p {
     font-size: 1rem; /* Paragraph font size */
     text-align: center; /* Center-align project descriptions */
-    margin-bottom: 15px; /* Space below the description */
+    margin-top: 8px;
+    margin-bottom: 0;
   }
   
   .intern a {
@@ -49,4 +50,22 @@
   
   .intern a:hover {
     background-color: #e5554d; /* Slightly darker button color on hover */
+  }
+
+  .intern ul {
+    margin: 8px 0 8px 0; /* Reduce space above and below the list */
+    padding-left: 20px;   /* Standard bullet indent */
+    text-align: left;     /* Align bullets to the left for readability */
+    display: inline-block; /* Prevents full width, keeps it neat */
+  }
+
+  .intern li {
+    margin-bottom: 6px;   /* Reduce space between bullet points */
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .intern p em {
+    margin-top: 0;      /* Remove extra margin above the certificate note */
+    display: block;
   }

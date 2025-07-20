@@ -7,23 +7,21 @@ const Internship = () => {
       <h2>Internship</h2>
       <div className="intern">
         <h3>Backend Engineer at PearlThoughts</h3>
-        <p>Collaborated closely with a team of developers to complete daily tasks and provide regular updates on progress.
-        </p>
-        <p>Worked together with the team to design, develop, and implement key features, ensuring project milestones were met on time
-        </p>
-        <p>Contributed to backend development using NestJS, PostgreSQL and GraphQL.
-        </p>
+        <ul>
+          <li>Collaborated closely with a team of developers to complete daily tasks and provide regular updates on progress.</li>
+          <li>Worked together with the team to design, develop, and implement key features, ensuring project milestones were met on time.</li>
+          <li>Contributed to backend development using NestJS, PostgreSQL and GraphQL.</li>
+        </ul>
         <a href="https://drive.google.com/file/d/1ZO6FLH1G8Fm7ghymXAxAOX7d-mjKhRGh/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View Intern certificate</a>
       </div>
       <div className="intern">
-        <h3>Campus Ambassador at Lyriclious</h3>
-        <p>Developed and executed effective social media marketing strategies.
-        </p>
-        <p>Collaborated with a team to generate creative ideas and solutions.
-        </p>
-        <p>Enhanced communication and analytical skills through active participation.
-        </p>
-        <a href="https://drive.google.com/file/d/1Z_h3JEONY1E6gm-yQbL8xecn_ptqypZR/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View Intern Certificate</a>
+        <h3>Prestigious Gaming (Associate Software Developer Intern) <span style={{fontWeight: "normal"}}>May 2025 – Present</span></h3>
+        <ul>
+          <li>Developing backend modules for gaming applications using PHP and CodeIgniter.</li>
+          <li>Actively communicating with the team for daily updates and sprint progress.</li>
+          <li>Focused on writing clean, maintainable code and collaborating on platform improvements.</li>
+        </ul>
+       {/* <p><em>Certificate not yet received</em></p> */}
       </div>
     </section>
   );

@@ -30,10 +30,24 @@
   margin-bottom: 10px; /* Space below the title */
 }
 
+.project-card ul {
+  margin: 8px 0 8px 0; /* Reduce space above and below the list */
+  padding-left: 20px;   /* Standard bullet indent */
+  text-align: left;     /* Align bullets to the left for readability */
+  display: inline-block; /* Prevents full width, keeps it neat */
+}
+
+.project-card li {
+  margin-bottom: 6px;   /* Reduce space between bullet points */
+  font-size: 1rem;
+  text-align: left;
+}
+
 .project-card p {
-  font-size: 1rem; /* Paragraph font size */
-  text-align: center; /* Center-align project descriptions */
-  margin-bottom: 15px; /* Space below the description */
+  margin-top: 8px;      /* Add a little space above links */
+  margin-bottom: 0;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .project-card a {
